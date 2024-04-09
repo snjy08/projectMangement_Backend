@@ -69,7 +69,7 @@ server.use((err, req, res, next) => {
     }
 });
 
-mongoose.connect('', {
+mongoose.connect('mongodb+srv://malavikavenu914:snjy5678@cluster0.8duiran.mongodb.net/projectManagement?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
